@@ -201,7 +201,6 @@
   </section>
 <!--End paper poster -->
 
-<!-- Video grid -->
 <section class="hero is-light">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -247,147 +246,42 @@
           </tr>
   
 </section>
-<!-- End video preload="auto"grid -->
 
-<!-- video preload="auto"carousel -->
-<section class="hero is-small is-light">
+
+            
+<section class="hero is-light">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-        <div class="column custom-width">
+        <div class="column">
           <h2 class="title is-3">Comparisons</h2>
           <div class="content has-text-justified">
-            <div class="caption-container" style="width: 1200px; padding-left: 50px">
-              <div class="caption">
-                <p>Input video</p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Text-to-video <a href="#ref-txt2vid">[1]</a></p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Tune-a-video <a href="#ref-TAV">[2]</a></p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gen-1 <a href="#ref-gen1">[3]</a></p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Per frame PnP<a href="#ref-pnp">[4]</a></p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fate-Zero<a href="#ref-fatezero">[5]</a></p>
-              </div>
-              <div class="caption">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rerender-a-video<a href="#ref-rerender">[6]</a></p>
-              </div>
-              
-              <!-- Add remaining captions here  -->
-            </div>
-      <div id="results-carousel" class="carousel results-carousel" align="center">
-        <div class="item item-video1">
-           <!-- Add caption element for each video preload="auto"-->
-          <video preload="auto"poster="" id="video11" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/bread/input_fps20.mp4"
-            type="video/mp4">
-          </video>
-          <video preload="auto"poster="" id="video12" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/bread/result_fps_20.mp4"
-            type="video/mp4">
-          </video>
+            <td colspan="3">
+              <p style="margin-top: -12px;">
+                Hover over the videos to see the original video and text prompts.
+              </p>
+            </td>
+  <!-- </td> -->
+          <tr>
+            <td colspan="3" style="text-align: center; padding-bottom: 30px;">
+              <img src="pics/comp1.png" alt="" width="1000" />
+              <h2 class="subtitle has-text-center" style="font-size: 13px; text-align: center;">
+                Comparison 1: Subject-driven Editing.
+              </h2>
+            </td>
+          </tr>
           
-          <video preload="auto"poster="" id="video13" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/bread/txt2vid_fps20.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video14" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/bread/tav_fps20.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video15" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/bread/gen1_fps20.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video16" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/bread/pnp_per_frame_baseline_fps_20.mp4"
-            type="video/mp4">
-          </video>
-          <video preload="auto"poster="" id="video25" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="./sm/assets/bread/a shiny metal scultpture/fatezero_20_fps.mp4"
-            type="video/mp4">
-          </video>
-          <video preload="auto"poster="" id="video25" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="./sm/assets/bread/a shiny metal scultpture/rerender_fps_20.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video2">
-          
-          <video preload="auto"poster="" id="video1" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/poodle/input_fps30.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video21" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/poodle/result_fps_30.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video22" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/poodle/txt2vid_fps30.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video23" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/poodle/tav_fps30.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video24" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/poodle/gen1_fps30.mp4"
-            type="video/mp4">
-          </video>
-          
-          <video preload="auto"poster="" id="video25" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="videos/compare/poodle/pnp_per_frame_baseline_fps_30.mp4"
-            type="video/mp4">
-          </video>
-          <video preload="auto"poster="" id="video25" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="./sm/assets/poodle/a dog with a rainbow texture/fatezero_30_fps.mp4"
-            type="video/mp4">
-          </video>
-          <video preload="auto"poster="" id="video25" autoplay controls muted loop width="140px">
-            <!-- Your video preload="auto"file here -->
-            <source src="./sm/assets/poodle/a dog with a rainbow texture/rerender_fps_30.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video preload="auto"carousel -->
+          <tr>
+            <td colspan="3" style="text-align: center; padding-bottom: 30px;">
+              <!-- Ensure image is centered with display block and margin auto -->
+              <img src="pics/comp2.png" alt="" width="1000" style="display: block; margin: 0 auto;" />
+              <!-- Ensure title is centered -->
+              <h2 class="subtitle has-text-center" style="font-size: 13px; text-align: center;">
+                Comparison 2: Semantic Editing.
+              </h2>
+            </td>
+          </tr>
+            
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
