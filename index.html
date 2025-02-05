@@ -192,27 +192,9 @@
               Semantic editing can be performed on both the blended subject and the source image by making corresponding textual modifications to P_C_f and P_X_s.
             </td>
           </tr>
-            
-            <td colspan="3">
-              <p style="margin-top: 20px; margin-bottom: -12px;">
-                Our key finding is that a temporally-consistent edit can be achieved by enforcing consistency on the internal diffusion features across frames during the editing process.
-                We achieve this by propagating a small set of edited features across frames, using the correspondences between the original video features.
-                Given an input video I, we invert each frame, extract its tokens (i.e., output features from the self-attention modules), and extract inter-frame feature correspondences using a nearest-neighbor (NN) search. At each denoising step:
-              </p>
-              <ol>
-                (I) We sample keyframes from the noisy video J_t and jointly edit them using an extended-attention block. The set of resulting edited tokens is T_base.</li>
-                <br>
-                (II) We propagate the edited tokens across the video according to the pre-computed correspondences of the original video features.</li>
-              </ol>
-              To denoise J_t, we feed each frame to the network and replace the generated tokens with the tokens obtained from the propagation step (II).
-            </td>
-          </tr>
+
         </tbody>
       </table>
-
-        <div>
-          <td colspan="3"><img src="pics/method2.png" alt="" width="1000" /></td>
-        </div>
       
       </div>
       </div>
