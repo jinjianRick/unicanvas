@@ -207,7 +207,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <h2 class="title is-3">TokenFlow Editing results</h2>
+          <h2 class="title is-3">UniCanvas Editing results</h2>
           <div class="content has-text-justified">
             <td colspan="3">
               <p style="margin-top: -12px;">
@@ -215,57 +215,18 @@
               </p>
             </td>
   <!-- </td> -->
-    <div class="video-wrapper" style="width: 32%">
-      <video preload="auto"class="hover-video" src="videos/results/bread/input_fps20.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="default-video" src="videos/results/bread/result_fps_20.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">an ice sculpture</div>
-    </div>
-    <div class="video-wrapper" style="width: 32%">
-      <video preload="auto"class="hover-video" src="videos/results/wolf-part/input_fps20.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="default-video" src="videos/results/wolf-part/result_fps_20.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">a robotic wolf</div>
-    </div>
-    <div class="video-wrapper" style="width: 32%">
-      <video preload="auto"class="hover-video" src="videos/results/woman-running/input_fps30.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="default-video" src="videos/results/woman-running/marble.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">a marble sculpture</div>
-    </div>
-    <br />
-    <div class="video-grid">
-      <div class="video-wrapper">
-        <video preload="auto"class="hover-video" src="videos/results/poodle_2/input_fps30.mp4" preload="metadata" autoplay loop muted> </video>
-        <video preload="auto"class="default-video" src="videos/results/poodle_2/result_fps_30.mp4" preload="metadata" autoplay controls loop muted></video>
-        <div class="overlay-text">Van Gogh painting</div>
-      </div>
-    <div class="video-wrapper">
-      <video preload="auto"class="default-video" src="videos/results/stork/origami.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="hover-video" src="videos/results/stork/input_fps30.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">an origami of a stork</div>
-    </div>
-    <br />
-    <div class="video-wrapper">
-      <video preload="auto"class="default-video" src="videos/results/tesla/result_fps_30.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="hover-video" src="videos/results/tesla/input_fps30.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">a car made of ice on an icy road</div>
-    </div>
-    <div class="video-wrapper">
-      <video preload="auto"class="hover-video" src="videos/results/gen1-face/input_fps30.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="default-video" src="videos/results/gen1-face/result_fps30.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">Van Gogh painting</div>
-    </div>
-    <br/>
-    <div class="video-wrapper">
-      <video preload="auto"class="default-video" src="videos/results/man_basket/result_fps_30.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="hover-video" src="videos/results/man_basket/input_fps30.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">a robot spinning a silver ball</div>
-    </div>
-    <div class="video-wrapper">
-      <video preload="auto"class="hover-video" src="videos/results/kittens/input_fps30.mp4" preload="metadata" autoplay loop muted> </video>
-      <video preload="auto"class="default-video" src="videos/results/kittens/result_fps_30.mp4" preload="metadata" autoplay controls loop muted></video>
-      <div class="overlay-text">colorful crochet kittens</div>
-    </div>
-    <br/>
-  </div>
+    </tr>
+            <td colspan="3" style="text-align: center;">
+              <img src="pics/method2.png" alt="" width="1000" />
+            <h2 class="subtitle has-text-left" style="font-size: 13px;">
+              Overall framework of the inference process.
+              UniCanvas achieves unified editing with two collaborative text-to-image generative branches, namely the subject branch and the image branch.
+              The subject branch is conditioned on P_C_f and is tasked with generating the target subject in the specified region, while the image branch is conditioned on P_X_s and is responsible for faithfully reconstructing the source image.
+              These two generative branches are integrated using a Selective Blending Module (SBM) at each cross-attention layer to achieve subject-driven editing.
+              SBM employs cross-attention maps to dynamically determine aggregation weights of two branches.
+              Semantic editing can be performed on both the blended subject and the source image by making corresponding textual modifications to P_C_f and P_X_s.
+            </td>
+          </tr>
   
 </section>
 <!-- End video preload="auto"grid -->
