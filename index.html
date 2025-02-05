@@ -215,16 +215,27 @@
               </p>
             </td>
   <!-- </td> -->
-    </tr>
+          </tr>
             <td colspan="3" style="text-align: center;">
-              <img src="pics/method2.png" alt="" width="1000" />
-            <h2 class="subtitle has-text-left" style="font-size: 13px;">
-              Overall framework of the inference process.
-              UniCanvas achieves unified editing with two collaborative text-to-image generative branches, namely the subject branch and the image branch.
-              The subject branch is conditioned on P_C_f and is tasked with generating the target subject in the specified region, while the image branch is conditioned on P_X_s and is responsible for faithfully reconstructing the source image.
-              These two generative branches are integrated using a Selective Blending Module (SBM) at each cross-attention layer to achieve subject-driven editing.
-              SBM employs cross-attention maps to dynamically determine aggregation weights of two branches.
-              Semantic editing can be performed on both the blended subject and the source image by making corresponding textual modifications to P_C_f and P_X_s.
+              <img src="pics/res1.png" alt="" width="1000" />
+            <h2 class="subtitle has-text-center" style="font-size: 13px;">
+              Subject-driven Editing.
+            </td>
+          </tr>
+
+          </tr>
+            <td colspan="3" style="text-align: center;">
+              <img src="pics/res3.png" alt="" width="1000" />
+            <h2 class="subtitle has-text-center" style="font-size: 13px;">
+              Cross-Domain Subject-driven Editing.
+            </td>
+          </tr>
+
+          </tr>
+            <td colspan="3" style="text-align: center;">
+              <img src="pics/res2.png" alt="" width="1000" />
+            <h2 class="subtitle has-text-center" style="font-size: 13px;">
+              Unified Editing.
             </td>
           </tr>
   
