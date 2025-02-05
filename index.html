@@ -157,50 +157,21 @@
           <tr>
             <td colspan="3">
               <p>
-                We observe that the level of temporal consistency of a video is tightly related to the temporal consistency of its feature representation, as can be seen in the feature visualization below.
-                The features of a natural video have a shared, temporally consistent representation. When editing the video per frame, this consistency breaks. Our method ensures the same level of feature consistency as in the original video features.
+                We achieve affordance-aware unified editing based on text-to-image model customization, inspired by its two key merits. First, a unified image editing task takes
+                two modalities as input, i.e., textual prompts and images.
+                Text-to-image model customization can convert images into
+                textual conditions, unifying two types of input to the same
+                modality, thereby paving the way for unified editing. Furthermore, large-scale pre-trained models exhibit powerful
+                generative priors for visual understanding and reasoning.
+                Model customization implants the visual concept into pretrained models, providing a potential solution to unlock the
+                models’ capacity for scene affordance perception in image
+                editing.
               </p>
             </td>
           </tr>
-          <tr>
-            <td style="font-size: 16px; text-align: center;">Original</td>
-            <td style="font-size: 16px; text-align: center;">Per Frame Editing</td>
-            <td style="font-size: 16px; text-align: center;">Ours</td>
-          </tr>
-          <tr class="video-row">
-            <td style="text-align: center;">
-              <a href="sm/assets/man_basket/input_fps30.mp4">
-                <video preload="auto"width="224" src="sm/assets/man_basket/input_fps30.mp4" autoplay loop controls muted/>
-              </a>
-            </td>
-            <td style="text-align: center;">
-              <a href="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/pnp_per_frame_baseline_fps_30.mp4">
-                <video preload="auto"width="224" src="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/pnp_per_frame_baseline_fps_30.mp4" autoplay loop controls muted/>
-              </a>
-            </td>
-            <td style="text-align: center;">
-              <a href="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/result_fps30.mp4">
-                <video preload="auto"width="224" src="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/result_fps_30.mp4" autoplay loop controls muted/>
-              </a>
-            </td>
-          </tr>
-          <tr class="video-row">
-            <td style="text-align: center;">
-              <a href="videos/pca/tokens_origvideo_30.mp4">
-                <video preload="auto"width="224" src="videos/pca/tokens_origvideo_30.mp4" autoplay loop controls muted/>
-              </a>
-            </td>
-            <td style="text-align: center;">
-              <a href="videos/pca/tokens_pnpvideo_30.mp4">
-                <video preload="auto"width="224" src="videos/pca/tokens_pnpvideo_30.mp4" autoplay loop controls muted/>
-              </a>
-            </td>
-            <td style="text-align: center;">
-              <a href="videos/pca/tokens_flowvideo_30.mp4">
-                <video preload="auto"width="224" src="videos/pca/tokens_flowvideo_30.mp4" autoplay loop controls muted/>
-              </a>
-            </td>
-          </tr>
+            <div>
+              <td colspan="3"><img src="pics/method1.png" alt="" width="1000" /></td>
+            </div>
           <tr>
             
             <td colspan="3">
