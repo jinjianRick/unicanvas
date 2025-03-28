@@ -51,6 +51,7 @@ wget -P ./pretrain_model https://huggingface.co/CompVis/stable-diffusion-v-1-4-o
 ```
 bash train_two.sh
 ```
+You can download the real regularization images [here](https://drive.google.com/file/d/1-oYRCLq87dKnMm6h8-y6X4WZ5_CU2CoM/view?usp=sharing) and place them in ```./real_reg```, or curate them yourself and organize them in the same format.
 
 #### Parameters in train_two.sh
 
