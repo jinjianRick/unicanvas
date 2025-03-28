@@ -8,12 +8,13 @@ Given a source real image and a target subject specified by several reference im
 
 > <a href="https://jinjianrick.github.io/unicanvas/">**UniCanvas: Affordance-Aware Unified Real Image Editing via Customized Text-to-image Generation (IJCV)**</a>
 >
-> <a href="https://chenjin.netlify.app/">Jian Jin<sup>1</sup></a>,
-    <a href="https://rt416.github.io/">Yang Shen<sup>1</sup></a>, 
-    <a href="https://uk.linkedin.com/in/amrutha-saseendran">Xinyang Zhao<sup>1</sup> </a>, 
-    <a href="https://tomdiethe.com/">Zhenyong Fu<sup>1</sup></a>, 
-    <a href="https://uk.linkedin.com/in/philteare">Jian Yang<sup>1</sup></a><br>
->
+>   Jian Jin<sup>1</sup></a>,
+    <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=Kz1lGgoAAAAJ">Yang Shen<sup>1</sup></a>, 
+    Xinyang Zhao<sup>1</sup> </a>, 
+    Zhenyong Fu<sup>1</sup></a>, 
+    <a href="https://uk.linkedin.com/in/philteare](https://scholar.google.com.hk/citations?hl=zh-CN&user=6CIDtZQAAAAJ">Jian Yang<sup>1</sup></a><br>
+><sup>1</sup> Nanjing University of Science and Technology
+
 > In International Journal of Computer Vision 2025
 
 ## Results
