@@ -81,20 +81,6 @@ python3 sample.py \
    --cy 350 \
    --scale_x 200 \
    --scale_y 200
-
-python3 sample.py \
-   --prompt_foreground "<new1> <new2> <new3> teddybear on the sofa." \
-   --prompt_subject "<new1> <new2> <new3> teddybear" \
-   --prompt_background "Photo of <new4> sofa <new5> wall <new6> floor." \
-   --delta_ckpt logs/2025-03-27T06-20-29_teddybear+chair2-sdv4/checkpoints/embeddings_gs-1499.ckpt \
-   --ckpt /opt/data/private/model/sd-v1-4.ckpt \
-   --device "cuda:1" \
-   --specific_epoch '1499' \
-   --layout_sup True \
-   --cx 250 \
-   --cy 350 \
-   --scale_x 200 \
-   --scale_y 200
 ```
 
 
