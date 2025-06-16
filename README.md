@@ -159,8 +159,6 @@ This code is based on the [Stable Diffusion](https://github.com/CompVis/latent-d
 
 ## Citation
 
-If you make use of our work, please cite our paper:
-
 ```
 @article{jin2025unicanvas,
         title={UniCanvas: Affordance-Aware Unified Real Image Editing via Customized Text-to-Image Generation},
